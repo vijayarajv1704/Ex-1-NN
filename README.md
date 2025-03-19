@@ -113,47 +113,48 @@ print("\nLenght of X_test ",len(X_test))
 ```
 
 ## OUTPUT:
-##DATA CHECKING:
+
+## DATA CHECKING:
 
 ![image](https://github.com/user-attachments/assets/03555884-861a-4428-8421-f81ef11b8686)
 
-##MISSING DATA:
+## MISSING DATA:
 
 ![image](https://github.com/user-attachments/assets/3a664406-3684-4c6d-87fa-24ce6e790a2e)
 
 
-##DUPLICATES IDENTIFICATION:
+## DUPLICATES IDENTIFICATION:
 
 ![image](https://github.com/user-attachments/assets/f8c02477-e941-4d2b-9c31-ed02df4df973)
 
 
-##VALUES OF 'Y':
+## VALUES OF 'Y':
 
 
 ![image](https://github.com/user-attachments/assets/fe63b364-b12e-4339-ae78-ac25fc300b9d)
 
 
-##OUTLIERS:
+## OUTLIERS:
 
 ![image](https://github.com/user-attachments/assets/1978dcb2-d997-42b7-8240-af3be52c0dc0)
 
 
-##Checking datasets after dropping string values data from dataset:
+## Checking datasets after dropping string values data from dataset:
 
 ![image](https://github.com/user-attachments/assets/9ef4a227-7645-4904-9e2f-2dbfc62791c6)
 
 
-##NORMALIZE THE DATASET:
+## NORMALIZE THE DATASET:
 
 ![image](https://github.com/user-attachments/assets/094928e8-a189-4d36-aa43-8670586e17d6)
 
 
-##SPLIT THE DATASET:
+## SPLIT THE DATASET:
 
 ![image](https://github.com/user-attachments/assets/388c2cbd-559c-4627-884d-03d2543940fa)
 
 
-##TRAINING AND TESTING MODEL:
+## TRAINING AND TESTING MODEL:
 
 ![image](https://github.com/user-attachments/assets/43ed6e58-83ac-425a-a3d5-cd6fa02c5340)
 
