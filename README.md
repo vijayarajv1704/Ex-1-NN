@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME: Vijayaraj V</H3>
+<H3>ENTER YOUR REGISTER NO: 212222230174</H3> 
 <H3>EX. NO.1</H3>
-<H3>DATE</H3>
+<H3>DATE:12-03-2025</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -37,14 +37,113 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
 
+Import Libraries:
+```
+from google.colab import files
+import pandas as pd
+import seaborn as sns
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from scipy import stats
+import numpy as np
+```
+
+Read the dataset:
+```
+df=pd.read_csv("Churn_Modelling.csv")
+df.head()
+df.tail()
+df.columns
+```
+
+Check the missing data:
+```
+df.isnull().sum()
+df.duplicated()
+```
+Assigning Y
+```
+y = df.iloc[:, -1].values
+print(y)
+```
+
+Check for duplicates:
+
+```
+df.duplicated()
+```
+Check for outliers:
+```
+df.describe()
+```
+Dropping string values data from dataset:
+```
+data = df.drop(['Surname', 'Geography','Gender'], axis=1)
+```
+Checking datasets after dropping string values data from dataset:
+```
+data.head()
+```
+Normalize the dataset:
+```
+scaler=MinMaxScaler()
+df1=pd.DataFrame(scaler.fit_transform(data))
+print(df1)
+```
+
+Split the dataset:
+```
+X=df.iloc[:,:-1].values
+y=df.iloc[:,-1].values
+print(X)
+print(y)
+```
+Training and testing model:
+```
+X_train ,X_test ,y_train,y_test=train_test_split(X,y,test_size=0.2)
+print("X_train\n")
+print(X_train)
+print("\nLenght of X_train ",len(X_train))
+print("\nX_test\n")
+print(X_test)
+print("\nLenght of X_test ",len(X_test))
+```
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+DATA CHECKING:
 
+![alt text](image-4.png)
+MISSING DATA:
 
+![alt text](image-2.png)
+
+DUPLICATES IDENTIFICATION:
+
+![alt text](image-3.png)
+
+VALUES OF 'Y':
+
+![alt text](image-6.png)
+
+OUTLIERS:
+
+![alt text](image-7.png)
+
+Checking datasets after dropping string values data from dataset:
+![alt text](image-9.png)
+
+NORMALIZE THE DATASET:
+
+![alt text](image-8.png)
+
+SPLIT THE DATASET:
+
+![alt text](image-10.png)
+
+TRAINING AND TESTING MODEL:
+![alt text](image-11.png)
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
-
-
