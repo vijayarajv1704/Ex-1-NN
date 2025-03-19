@@ -113,37 +113,50 @@ print("\nLenght of X_test ",len(X_test))
 ```
 
 ## OUTPUT:
-DATA CHECKING:
+##DATA CHECKING:
 
-![alt text](image-4.png)
-MISSING DATA:
+![image](https://github.com/user-attachments/assets/03555884-861a-4428-8421-f81ef11b8686)
 
-![alt text](image-2.png)
+##MISSING DATA:
 
-DUPLICATES IDENTIFICATION:
+![image](https://github.com/user-attachments/assets/3a664406-3684-4c6d-87fa-24ce6e790a2e)
 
-![alt text](image-3.png)
 
-VALUES OF 'Y':
+##DUPLICATES IDENTIFICATION:
 
-![alt text](image-6.png)
+![image](https://github.com/user-attachments/assets/f8c02477-e941-4d2b-9c31-ed02df4df973)
 
-OUTLIERS:
 
-![alt text](image-7.png)
+##VALUES OF 'Y':
 
-Checking datasets after dropping string values data from dataset:
-![alt text](image-9.png)
 
-NORMALIZE THE DATASET:
+![image](https://github.com/user-attachments/assets/fe63b364-b12e-4339-ae78-ac25fc300b9d)
 
-![alt text](image-8.png)
 
-SPLIT THE DATASET:
+##OUTLIERS:
 
-![alt text](image-10.png)
+![image](https://github.com/user-attachments/assets/1978dcb2-d997-42b7-8240-af3be52c0dc0)
 
-TRAINING AND TESTING MODEL:
-![alt text](image-11.png)
+
+##Checking datasets after dropping string values data from dataset:
+
+![image](https://github.com/user-attachments/assets/9ef4a227-7645-4904-9e2f-2dbfc62791c6)
+
+
+##NORMALIZE THE DATASET:
+
+![image](https://github.com/user-attachments/assets/094928e8-a189-4d36-aa43-8670586e17d6)
+
+
+##SPLIT THE DATASET:
+
+![image](https://github.com/user-attachments/assets/388c2cbd-559c-4627-884d-03d2543940fa)
+
+
+##TRAINING AND TESTING MODEL:
+
+![image](https://github.com/user-attachments/assets/43ed6e58-83ac-425a-a3d5-cd6fa02c5340)
+
+
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
